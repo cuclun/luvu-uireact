@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "C_Cpp.errorSquiggles": "Disabled",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}

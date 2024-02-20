@@ -1,0 +1,30 @@
+#table-image-list {
+  background-color: #fff;
+  border-collapse: collapse;
+  border-left: 4px solid #3aafa9;
+}
+
+#table-image-list th {
+  background-color: #3aafa9;
+  color: #fff;
+}
+
+#table-image-list th,
+#table-image-list td {
+  padding: 8px;
+}
+
+#table-image-list tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+#table-image-list button {
+  background-color: #3aafa9;
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}

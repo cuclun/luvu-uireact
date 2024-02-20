@@ -1,0 +1,73 @@
+.styled-table {
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.styled-table .table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #3aafa9;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #ddd;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #3aafa9;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #3aafa9;
+}
+
+.pagination-status {
+  list-style: none;
+  position: absolute;
+  bottom: -20;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-status__btn {
+  padding: 4px 8px;
+  margin: 0 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pagination-status__btn:hover {
+  opacity: 0.6;
+}
+
+.pagination-status__btn--active {
+  background-color: #3aafa9;
+}
+
+.pagination-status__btn--disable {
+  opacity: 0.6;
+  cursor: default;
+}

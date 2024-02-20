@@ -1,0 +1,127 @@
+@font-face {
+  font-family: sfy;
+  src: url(/src/app/static/fonts/SFUFuturaBook.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 0.8rem;
+  overflow-y: auto;
+  line-height: 1.6 !important;
+}
+
+body {
+  font-family: sfy;
+}
+
+button {
+  cursor: pointer;
+  font-size: 15px;
+  outline: none !important;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.hover-transition:hover {
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg-red {
+  background-color: #f64c72;
+  color: #fff;
+}
+
+.c-red {
+  color: #f64c72;
+}
+
+.p-4 {
+  padding: 4px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pl-4 {
+  padding-left: 4px;
+}
+
+.pr-4 {
+  padding-right: 4px;
+}
+
+.content {
+  background-color: #ededed;
+}
+
+.main {
+  max-width: 1230px;
+  padding: 0px 30px;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+label {
+  display: contents;
+  margin: 0;
+}
+
+.blog {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.blog img {
+  width: -webkit-fill-available;
+}

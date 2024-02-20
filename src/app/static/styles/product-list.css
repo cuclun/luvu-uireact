@@ -1,0 +1,28 @@
+.home__product-list {
+  font-size: 30px;
+  position: relative;
+  display: flex;
+}
+
+.home__product-list h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.home__product-list div {
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  top: 24px;
+  margin: 0 0 0 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: content-box;
+  flex-wrap: wrap;
+  padding: 50px 30px 100px;
+}

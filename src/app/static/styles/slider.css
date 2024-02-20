@@ -1,0 +1,8 @@
+.slider-item {
+    height: 500px;
+}
+
+.slider-item img {
+    height: 100%;
+    object-fit: cover;
+}

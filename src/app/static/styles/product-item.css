@@ -1,0 +1,37 @@
+.product-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  align-items: center;
+}
+
+.product-item div {
+  margin: 8px 0 32px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.product-item img {
+  width: 80%;
+}
+
+.product-item__name {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.product-item__price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f64c72;
+}
+
+.product-item:hover .product-item__name {
+  color: #f64c72;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 750px) {
+  .product-item {
+    max-width: 33.3%;
+  }
+}

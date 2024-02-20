@@ -1,0 +1,109 @@
+.admin-content {
+  position: absolute;
+  top: 78.4px;
+  left: 224px;
+  bottom: 0;
+  right: 0;
+  padding: 28px;
+  background-color: #f6f6f6;
+  height: fit-content;
+}
+
+.admin-name-page {
+  font-size: 24px;
+  color: #5a5c69;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-name-page>div>button {
+  height: 36px;
+  line-height: 20px;
+  border: 0px solid #ccc;
+  border-radius: 25px;
+  padding: 4px 16px;
+  color: #fff;
+  margin-left: 8px;
+}
+
+.admin-name-page>div>button>i {
+  padding-left: 8px;
+}
+
+.admin__btn-edit {
+  background-color: #f6c23e;
+  color: #fff;
+}
+
+.admin__btn-add {
+  background-color: #3aafa9;
+  color: #fff;
+}
+
+.admin__btn-del {
+  background-color: #e74a3b;
+  color: #fff;
+}
+
+tr {
+  text-align: center;
+}
+
+.dataTables_wrapper button {
+  margin: 0 4px;
+}
+
+#model-add,
+#model-edit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+#model-edit form {
+  background-color: #fff;
+}
+
+.dropzone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+  margin-right: 4px;
+}
+
+.btn-rm-item {
+  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  border: 0;
+  border-radius: 50%;
+}
+
+#admin-collection-page {
+  min-height: 81vh;
+}

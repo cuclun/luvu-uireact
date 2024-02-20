@@ -1,0 +1,43 @@
+.model-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+#product-photo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#product-photo > div {
+  width: 50%;
+}
+
+#product-photo > div > ul {
+  height: 180px;
+  overflow-y: scroll;
+  list-style: none;
+}
+#product-photo li {
+  margin: 4px;
+}
+
+#product-photo li > div {
+  display: inline;
+}
+
+#product-photo button {
+  border: 0px solid #ccc;
+  color: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+.specifications > input {
+  border: 1px solid #ccc;
+  width: 80%;
+  padding: 8px;
+}
